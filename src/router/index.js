@@ -31,6 +31,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "keepalive" */ "../views/KeepAlive.vue"),
   },
+  {
+    path: "/life",
+    name: "Life",
+    component: () =>
+      import(/* webpackChunkName: "life" */ "../views/Life.vue"),
+  },
 ];
 
 const router = new VueRouter({
