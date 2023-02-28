@@ -19,6 +19,18 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/upload",
+    name: "Upload",
+    component: () =>
+      import(/* webpackChunkName: "upload" */ "../views/Upload.vue"),
+  },
+  {
+    path: "/keepalive",
+    name: "KeepAlive",
+    component: () =>
+      import(/* webpackChunkName: "keepalive" */ "../views/KeepAlive.vue"),
+  },
 ];
 
 const router = new VueRouter({
