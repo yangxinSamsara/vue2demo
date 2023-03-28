@@ -37,6 +37,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "life" */ "../views/Life.vue"),
   },
+  {
+    path: "/virtual-scroller",
+    name: "VirtualScroller",
+    component: () =>
+      import(/* webpackChunkName: "VirtualScroller" */ "../views/VirtualScroller.vue"),
+  },
 ];
 
 const router = new VueRouter({

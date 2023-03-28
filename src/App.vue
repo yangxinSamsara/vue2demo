@@ -6,6 +6,7 @@
       <router-link to="/upload">Upload</router-link> | 
       <router-link to="/keepalive">KeepAlive</router-link> |
       <router-link to="/life">Life</router-link> |
+      <router-link to="/virtual-scroller">VirtualScroller</router-link> |
     </div>
     <router-view />
   </div>
